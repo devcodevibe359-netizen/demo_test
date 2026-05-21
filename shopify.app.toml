@@ -2,7 +2,7 @@
 
 client_id = "2ec6e5bc69267343ce78e747a4784887"
 name = "demo_host"
-application_url = "https://example.com"
+application_url = "https://demotest-production-b255.up.railway.app/"
 embedded = true
 
 [build]
@@ -25,7 +25,7 @@ api_version = "2026-07"
 scopes = "write_products,write_metaobjects,write_metaobject_definitions"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://demotest-production-b255.up.railway.app//api/auth" ]
 
 [product.metafields.app.demo_info]
 type = "single_line_text_field"
